@@ -1,32 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Renaissance</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>renaissance</title>
+    <!-- Fontawesome cdn link for burger icon -->
+    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<header class="header">
-    Renaissance
-</header>
 <body>
-  <div class="burger-icon" onclick="toggleMenu()">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-
-  <nav class="menu">
-    <ul>
-      <li><a href="#">Artshop </a></a></li>
-      <li><a href="#">Printshop</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  
-  <script src="script.js"></script>
+    <!-- header -->
+    <header class="header-wraper">
+            <div class="wrapper">
+                <ul class="logo">
+                    <a href="#"> renaissance</a>
+                </ul>
+                <ul id="menu" class="menu-ul">
+                    <li><a class="nav-a" href="#">news</a></li>
+                    <li><a class="nav-a" href="#">clotches</a></li>
+                    <li><a class="nav-a" href="#">Contact</a></li>
+                    <li><a class="nav-a" href="#">about us</a></li>
+                </ul>
+                <ul id="socicon" class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+                <div id="burger-menu" class="burger-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>       
+    </header>
+       <div class="div">
+        <img class="firstimg" src="img/header renaissance.jpg" alt="">
+       </div>
+    <!-- Js Link -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
