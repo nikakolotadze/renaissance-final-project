@@ -1,9 +1,12 @@
 .header-wraper{
-    background: grey;
+    background-color: #333;
     padding: 30px 0;
     position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
 }
 .wrapper{
+   
     max-width: 1170px;
     width: 100%;
     margin: 0 auto;
@@ -22,6 +25,13 @@ ul{
 }
 .burger-icon {
     display: none;
+}
+.bodyimg{
+    width: 30%;
+}
+
+.bck{
+    background-color: #a5a1ab;
 }
 
 
@@ -43,6 +53,7 @@ ul{
   } 
   .logo{
     text-align: left;
+    display: flex;
   }
   .burger-icon{
     color: #fff;
@@ -63,4 +74,24 @@ ul{
   .social-icons.open-socicon{
     display: flex;
   } 
+  .logo{
+             
+  }
+  .body{
+ 
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px; /* რბილი კუთხეები */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* რბილი ჩრდილი */
+    max-width: 600px;
+    text-align: center; /* ტექსტის ცენტრში გასწორება */
+      background-color:rgba(79, 79, 88, .97) ; 
+  
+  }
+}
+.logo{
+    width: 15%;
+}
+.h1{
+    color: white;
 }
