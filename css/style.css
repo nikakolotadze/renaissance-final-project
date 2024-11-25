@@ -100,10 +100,7 @@ ul{
       background-color:rgba(79, 79, 88, .97) ; 
   
   }
-  .imgcover{
-    width: 100%;
-    border-radius: 15px;
-  }
+ 
 }
 .logo{
   font-family: 'YourCustomFont', sans-serif; /* სასურველი შრიფტი */
@@ -117,7 +114,18 @@ ul{
     color: white;
 }
 
-.imgcover{
-  width: 100%;
-  border-radius: 15px;
+.photo-container {
+  max-width: 100%; /* მაქსიმალური სიგანე: ეკრანის სიგანეს არ უნდა გადააჭარბოს */
+  width: 100%; /* სიგანე: 100% */
+  height: auto; /* სიმაღლე ავტომატურად რეგულირდება */
+  margin: 0 auto; /* ცენტრში განლაგება */
+  overflow: hidden; /* ფოტოს გადაჭრის თავიდან აცილება */
+  border-radius: 10px; /* მრგვალი კუთხეები */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* ჩრდილი */
+}
+
+.photo-container img {
+  width: 100%; /* სიგანე: 100% */
+  height: auto; /* სიმაღლე ავტომატურად რეგულირდება */
+  object-fit: cover; /* ფოტო მორგება განზომილებებს */
 }
